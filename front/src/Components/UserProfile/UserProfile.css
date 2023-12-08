@@ -1,0 +1,35 @@
+
+.user-profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+    margin-top: 20px;
+}
+
+.profile-details p {
+    margin-bottom: 10px;
+}
+
+.update-profile-btn,
+.delete-profile-btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.update-profile-btn {
+    background-color: #007bff;
+}
+
+.delete-profile-btn {
+    background-color: #dc3545;
+}

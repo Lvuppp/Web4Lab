@@ -1,0 +1,67 @@
+.animal-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.animal-name {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.animal-info,
+.care-taker-info,
+.orders-info {
+    margin-bottom: 20px;
+}
+
+.orders-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.order-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.order-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-form h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.order-form select,
+.order-form input,
+.order-form button {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.order-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.order-form button:hover {
+    background-color: #45a049;
+}

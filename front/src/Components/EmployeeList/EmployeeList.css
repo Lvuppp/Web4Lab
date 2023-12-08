@@ -1,0 +1,23 @@
+.employee-list {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.employee-item {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.employee-item p {
+    margin: 8px 0;
+}
+
+.employee-item strong {
+    font-weight: bold;
+    margin-right: 4px;
+}
+
